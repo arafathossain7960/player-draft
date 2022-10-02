@@ -163,3 +163,13 @@ background-color: gold;
  #player-budget p, label{
     font-size: 22px;
  }
+
+  /* ------- footer style -------- */
+  #footer{
+    background-color: gray;
+    padding: 100px 0;
+    text-align: center;
+    box-shadow: 10px 10px 30px white;
+    font-size: 22px;
+    color: white
+  }

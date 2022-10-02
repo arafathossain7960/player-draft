@@ -7,10 +7,7 @@ font-family: 'Manrope', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto Mono', monospace; */
 
-/*--------- variables --------- */
-:root{
 
-}
 
 /* ------- universal style --------- */
 *{
@@ -18,14 +15,9 @@ font-family: 'Roboto Mono', monospace; */
     padding: 0;
     box-sizing: border-box;
 }
-/* ------- body or common style ---------- */
-body{
-
-}
 
 /* ---------- header style ------------------  */
 header{
-    
     box-shadow: 30px 10px 10px lightgray;
 }
 #header-style{
@@ -103,7 +95,6 @@ main button{
     border-radius: 10px;
     border: none;
     transition: 0.5s;
- 
 }
 #players button:hover{
 background-color: gold;
@@ -114,7 +105,6 @@ background-color: gold;
  #calculations{
     margin-left: 50px;
  }
-
  #players-count{
     box-shadow: 5px 5px 10p gray;
    background-color: goldenrod;
@@ -125,9 +115,7 @@ background-color: gold;
  #selected{
     padding: 20px 30px;
     font-size: 22px;
-    
  }
-
  #players-count h3, #player-budget h3{
     font-size: 2rem;
  }

@@ -15,9 +15,7 @@ function selectPlayer(name, id){
         
         document.getElementById(id).setAttribute('disabled', true)
         document.getElementById(id).setAttribute('style','background-color:gray')
-    
     }
-   
 }
 
 // calculate button listener -----------
@@ -30,8 +28,7 @@ document.getElementById('calculate-btn').addEventListener('click', function(){
      } else{
         alert('please!! enter number,')
     }
-
-})
+});
 
 /// total cost calculation ------------------
 document.getElementById('total-calculate-btn').addEventListener('click', function(){
@@ -41,10 +38,10 @@ document.getElementById('total-calculate-btn').addEventListener('click', functio
         const totalCost = playerCost + managerCost + couchCost;
         document.getElementById('total-cost').innerText = totalCost;
         
-})
-
+});
 
 //---------------- shared or common function -------------------
+
 // get value from id and convert string to integer
 function convertToInt(id,  isIdInput){
     if(isIdInput === true){
@@ -62,10 +59,9 @@ function convertToInt(id,  isIdInput){
     }
 } 
 
-// ----- Get childNodList from ol
+// ----- Get childNodList from ol tag
 
 function allPlayers(){
     const players = document.querySelectorAll('li');
-    return  players.length;
-   
+    return  players.length; 
 }

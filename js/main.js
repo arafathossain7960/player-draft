@@ -4,19 +4,16 @@
 
 
 // select player function --------------
-function selectPlayer(id, select){
+function selectPlayer(name, id){
+    console.log(name, id)
     const selectedPlayer = document.getElementById('selected');
     const li = document.createElement('li');
-    li.innerText = id;
+    li.innerText = name;
     selectedPlayer.appendChild(li) ;
     
-    // just try 
-    let temp = document.getElementById('selected').parentNode;
-
-     let item =  temp.children.length;
-    // -----------------------
-    document.getElementById(select).setAttribute('disabled', true)
-    document.getElementById(select).setAttribute('style','background-color:black')
+ 
+    document.getElementById(id).setAttribute('disabled', true)
+    document.getElementById(id).setAttribute('style','background-color:gray')
 
     // // document.getElementsByClassName(select).setAttribute('disabled', true)
     // document.getElementsByClassName(select).setAttribute('style','background-color:black')

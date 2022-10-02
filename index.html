@@ -4,26 +4,143 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- bootstrap lnk  -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/style.css">
     <title>Player Draft</title>
 </head>
 <body>
     
     <header>
-        <h1>Hello</h1>
+        <div id="header-style">
+            <div><img src="./img/header/player1.png" alt=""></div>
+            <div class="header-title">
+
+                <h1>Player Draft, Choose Your Team</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quod et tempora repellendus facilis velit?</p>
+            </div>
+            <div><img src="./img/header/wiket.png" alt=""></div>
+        </div>
     </header>
     <main>
+        <div class="main-container">
+            <div id="players">
+                <div class="player">
+                    <img src="./img/player/bret.jpg" alt="">
+                    <h3 id="adam">Adam</h3>
+                    <div class="text-info">
+                        <p>Age : 45</p>
+                        <p>Country: Australia</p>
+                    </div>
+                    <button id="select-btn-1" onclick="selectPlayer('adam', 'select-btn-1')">Select</button>
+                </div>
+                <div class="player">
+                    <img src="./img/player/gail.jpg" alt="">
+                    <h3>Adam</h3>
+                    <div class="text-info">
+                        <p>Age : 45</p>
+                        <p>Country: Australia</p>
+                    </div>
+                    <button id="select-btn-2" onclick="selectPlayer('Gail', 'select-btn-2')">Select</button>
+                </div>
+                <div class="player">
+                    <img src="./img/player/kalis.jpg" alt="">
+                    <h3>Adam</h3>
+                    <div class="text-info">
+                        <p>Age : 45</p>
+                        <p>Country: Australia</p>
+                    </div>
+                    <button id="select-btn-3" onclick="selectPlayer('kalis', 'select-btn-3')">Select</button>
+                </div>
+                <div class="player">
+                    <img src="./img/player/masakdza.jpg" alt="">
+                    <h3>Adam</h3>
+                    <div class="text-info">
+                        <p>Age : 45</p>
+                        <p>Country: Australia</p>
+                    </div>
+                    <button>Select</button>
+                </div>
+                <div class="player">
+                    <img src="./img/player/rofiq.jpg" alt="">
+                    <h3>Adam</h3>
+                    <div class="text-info">
+                        <p>Age : 45</p>
+                        <p>Country: Australia</p>
+                    </div>
+                    <button>Select</button>
+                </div>
+                <div class="player">
+                    <img src="./img/player/sangakara.jpg" alt="">
+                    <h3>Adam</h3>
+                    <div class="text-info">
+                        <p>Age : 45</p>
+                        <p>Country: Australia</p>
+                    </div>
+                    <button>Select</button>
+                </div>
+                <div class="player">
+                    <img src="./img/player/wasim.jpg" alt="">
+                    <h3>Adam</h3>
+                    <div class="text-info">
+                        <p>Age : 45</p>
+                        <p>Country: Australia</p>
+                    </div>
+                    <button>Select</button>
+                </div>
+                <div class="player">
+                    <img src="./img/player/images.jpg" alt="">
+                    <h3>Adam</h3>
+                    <div class="text-info">
+                        <p>Age : 45</p>
+                        <p>Country: Australia</p>
+                    </div>
+                    <button>Select</button>
+                </div>
+                <div class="player">
+                    <img src="./img/player/adam.jpg" alt="">
+                    <h3>Adam</h3>
+                    <div class="text-info">
+                        <p>Age : 45</p>
+                        <p>Country: Australia</p>
+                    </div>
+                    <button>Select</button>
+                </div>
+               
+            </div>
+            <div id="calculations">
+                <div id="players-count">
+                    <h3>Selected plyers</h3>
+                    <div >
+                        <ol id="selected">
+                           
+                        </ol>
+                    </div>
 
+                </div>
+                <div id="player-budget">
+                    <h3>Budget</h3>
+                    <label for="">per-player</label>
+                    <input id="player-rate" value="00" type="text">
+                    <br>
+                    <button id="calculate-btn">Calculate</button>
+                    <p>player expenses <span id="player-cost">00</span></p>
+                    <label for="">Manager</label>
+                    <input id="manager-cost" value="2000"  type="text">
+                    <br>
+                    <label for="">Couch</label>
+                    <input id="couch-cost" value="3000" type="text">
+                    <br>
+                    <button id="total-calculate-btn">Calculate total</button>
+                    <p>Total  <span id="total-cost">000</span></p>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
 
     </footer>
 
 
-    <!-- bootstrap js link  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
     <!-- custom js link  -->
     <script src="js/main.js"></script>
 </body>

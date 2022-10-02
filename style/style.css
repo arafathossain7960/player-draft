@@ -78,6 +78,7 @@ main button{
     text-align: center;
     box-shadow: 10px 10px 100px lightgray;
     padding-bottom: 20px;
+    border-radius: 0 0 10px 10px;
 }
 .player h3{
     font-size: 2rem;
@@ -101,5 +102,64 @@ main button{
     outline: none;
     border-radius: 10px;
     border: none;
+    transition: 0.5s;
  
 }
+#players button:hover{
+background-color: gold;
+}
+
+
+ /* ------- calculations style ----------------  */
+ #calculations{
+    margin-left: 50px;
+ }
+
+ #players-count{
+    box-shadow: 5px 5px 10p gray;
+   background-color: goldenrod;
+   color: white;
+   padding: 20px;
+   border-radius: 15px;
+ }
+ #selected{
+    padding: 20px 30px;
+    font-size: 22px;
+    
+ }
+
+ #players-count h3, #player-budget h3{
+    font-size: 2rem;
+ }
+ 
+ /* ------- budget area style -------- */
+ #player-budget{
+    padding: 25px;
+    background-color: gray;
+    border-radius: 15px;
+    color: white;
+ }
+ #player-budget input{
+    width: 50%;
+    padding: 8px 10px;
+    margin: 15px 10px;
+    font-size: 18px;
+    border-radius: 7px;
+    border: none;
+ }
+ #player-budget button{
+    width: 80%;
+    padding: 8px 10px;
+    margin: 15px 10px;
+    font-size: 18px;
+    border-radius: 7px;
+    border: none;
+    background-color: goldenrod;
+    transition: 0.5s;
+ }
+ #player-budget button:hover{
+    background-color: gold;
+ }
+ #player-budget p, label{
+    font-size: 22px;
+ }
